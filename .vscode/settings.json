@@ -1,0 +1,55 @@
+{
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "One Dark Pro",
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Source Code Pro,Menlo,Monaco, 'Courier New', monospace",
+  "editor.roundedSelection": false,
+  "editor.lineHeight": 24,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>[表情]",
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      {
+          "language": "vue",
+          "autoFix": true
+      },
+      {
+          "language": "typescript",
+          "autoFix": true
+      }
+  ],
+  "eslint.autoFixOnSave": true,
+  "terminal.integrated.shell.osx": "zsh",
+  "editor.formatOnSave": false,
+  "files.associations": {
+      "*.ejs": "html",
+      "*.wxss": "css",
+      "*.vue": "vue"
+  },
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  // "workbench.panel.location": "bottom",
+  "vsicons.dontShowNewVersionMessage": true,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.ts": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+      "wrap_attributes": "force-aligned"
+  },
+  "files.autoSave": "off",
+  "[typescript]": {},
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDelete": false,
+  "[javascript]": {},
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+  },
+  "tslint.autoFixOnSave": true,
+  "vsicons.projectDetection.autoReload": true
+}
