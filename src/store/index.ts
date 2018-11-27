@@ -10,9 +10,7 @@ const state: StateInterface = {
 }
 
 const actions = {
-  async login ({ commit }) {
 
-  }
 }
 const mutations = {
   setUser (state, user: UserInfo) {
